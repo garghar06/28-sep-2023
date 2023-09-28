@@ -8,7 +8,7 @@ class Cylinder:
         return math.pi*pow(self.radius,2)*self.height
 
     def surface_area(self):
-        return 2*math.pi*(self.radius+self.height)
+        return 2*math.pi*self.radius*self.height+2*math.pi*r**2
 
 c=Cylinder(2,3)
 print(c.volume())
